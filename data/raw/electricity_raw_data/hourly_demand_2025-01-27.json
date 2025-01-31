@@ -1,0 +1,4514 @@
+{
+    "response": {
+        "total": "498",
+        "dateFormat": "YYYY-MM-DD\"T\"HH24",
+        "frequency": "hourly",
+        "data": [
+            {
+                "period": "2025-01-28T00",
+                "subba": "PGAE",
+                "subba-name": "Pacific Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "8570",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "SCE",
+                "subba-name": "Southern California Edison",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "12189",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "SDGE",
+                "subba-name": "San Diego Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "1811",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "VEA",
+                "subba-name": "Valley Electric Association",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "133",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "ZONA",
+                "subba-name": "West",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "2117",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "ZONB",
+                "subba-name": "Genesee",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1398",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "ZONC",
+                "subba-name": "Central",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "2242",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "ZOND",
+                "subba-name": "North",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "751",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "ZONE",
+                "subba-name": "Mohawk Valley",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1240",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "ZONF",
+                "subba-name": "Capital",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1781",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "ZONG",
+                "subba-name": "Hudson Valley",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1437",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "ZONH",
+                "subba-name": "Millwood",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "414",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "ZONI",
+                "subba-name": "Dunwoodie",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "856",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "ZONJ",
+                "subba-name": "New York City",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "6556",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "ZONK",
+                "subba-name": "Long Island",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "2782",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "22",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "67",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "51",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "34",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "60",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1133",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-28T00",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "283",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T23",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T23",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "19",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T23",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "67",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T23",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T23",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "52",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T23",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "20",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T23",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "60",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T23",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1059",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T23",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "273",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T22",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T22",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "18",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T22",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "66",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T22",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T22",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "53",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T22",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "26",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T22",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "58",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T22",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1022",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T22",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "269",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T21",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T21",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "19",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T21",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "65",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T21",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T21",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "53",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T21",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "27",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T21",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "59",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T21",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1007",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T21",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "271",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T20",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T20",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "20",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T20",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "65",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T20",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T20",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "54",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T20",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "30",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T20",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "60",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T20",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1016",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T20",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "285",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T19",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T19",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "20",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T19",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "66",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T19",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T19",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "54",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T19",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "30",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T19",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "59",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T19",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1045",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T19",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "293",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T18",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T18",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "21",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T18",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "65",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T18",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T18",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "55",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T18",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "29",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T18",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "60",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T18",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1096",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T18",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "308",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T17",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T17",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "25",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T17",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "67",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T17",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T17",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "55",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T17",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "27",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T17",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "62",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T17",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1165",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T17",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "328",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T16",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T16",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "27",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T16",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "66",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T16",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "4",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T16",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "55",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T16",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "35",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T16",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "63",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T16",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1246",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T16",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "361",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T15",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T15",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "28",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T15",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "65",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T15",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "4",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T15",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "54",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T15",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "55",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T15",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "65",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T15",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1332",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T15",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "381",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T14",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T14",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "26",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T14",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "67",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T14",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T14",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "53",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T14",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "55",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T14",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "62",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T14",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1317",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T14",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "392",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T13",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T13",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "25",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T13",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "67",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T13",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T13",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "51",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T13",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "52",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T13",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "59",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T13",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1217",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T13",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "360",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T12",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T12",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "23",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T12",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "69",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T12",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T12",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "50",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T12",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "49",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T12",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "58",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T12",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1147",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T12",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "345",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T11",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T11",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "21",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T11",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "67",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T11",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T11",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "49",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T11",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "48",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T11",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "56",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T11",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1121",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T11",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "337",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T10",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T10",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "21",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T10",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "68",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T10",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T10",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "49",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T10",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "48",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T10",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "57",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T10",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1108",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T10",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "327",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T09",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T09",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "22",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T09",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "73",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T09",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T09",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "49",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T09",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "47",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T09",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "57",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T09",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1107",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T09",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "331",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T08",
+                "subba": "PGAE",
+                "subba-name": "Pacific Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "10782",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T08",
+                "subba": "SCE",
+                "subba-name": "Southern California Edison",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "10695",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T08",
+                "subba": "SDGE",
+                "subba-name": "San Diego Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "2252",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T08",
+                "subba": "VEA",
+                "subba-name": "Valley Electric Association",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "89",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T08",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T08",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "21",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T08",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "77",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T08",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T08",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "48",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T08",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "47",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T08",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "57",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T08",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1121",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T08",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "332",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T07",
+                "subba": "PGAE",
+                "subba-name": "Pacific Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "11354",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T07",
+                "subba": "SCE",
+                "subba-name": "Southern California Edison",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "11281",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T07",
+                "subba": "SDGE",
+                "subba-name": "San Diego Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "2343",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T07",
+                "subba": "VEA",
+                "subba-name": "Valley Electric Association",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "91",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T07",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T07",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "23",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T07",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "78",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T07",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T07",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "48",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T07",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "48",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T07",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "58",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T07",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1155",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T07",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "335",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T06",
+                "subba": "PGAE",
+                "subba-name": "Pacific Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "11678",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T06",
+                "subba": "SCE",
+                "subba-name": "Southern California Edison",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "11310",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T06",
+                "subba": "SDGE",
+                "subba-name": "San Diego Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "2449",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T06",
+                "subba": "VEA",
+                "subba-name": "Valley Electric Association",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "92",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T06",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T06",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "24",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T06",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "80",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T06",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T06",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "48",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T06",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "50",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T06",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "57",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T06",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1207",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T06",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "346",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "PGAE",
+                "subba-name": "Pacific Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "11863",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "SCE",
+                "subba-name": "Southern California Edison",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "11536",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "SDGE",
+                "subba-name": "San Diego Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "2541",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "VEA",
+                "subba-name": "Valley Electric Association",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "92",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "0001",
+                "subba-name": "Zone 1",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "11196",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "0004",
+                "subba-name": "Zone 4",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "5396",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "0006",
+                "subba-name": "Zone 6",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "10887",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "0027",
+                "subba-name": "Zones 2 and 7",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "16923",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "0035",
+                "subba-name": "Zones 3 and 5",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "11140",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "8910",
+                "subba-name": "Zones 8, 9, and 10",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "18136",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "ZONA",
+                "subba-name": "West",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1688",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "ZONB",
+                "subba-name": "Genesee",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1094",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "ZONC",
+                "subba-name": "Central",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1847",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "ZOND",
+                "subba-name": "North",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "665",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "ZONE",
+                "subba-name": "Mohawk Valley",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1008",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "ZONF",
+                "subba-name": "Capital",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1464",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "ZONG",
+                "subba-name": "Hudson Valley",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1182",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "ZONH",
+                "subba-name": "Millwood",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "335",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "ZONI",
+                "subba-name": "Dunwoodie",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "685",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "ZONJ",
+                "subba-name": "New York City",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "5314",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "ZONK",
+                "subba-name": "Long Island",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "2233",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "AE",
+                "subba-name": "Atlantic Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1212",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "AEP",
+                "subba-name": "American Electric Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "16287",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "AP",
+                "subba-name": "Allegheny Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "6491",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "ATSI",
+                "subba-name": "American Transmission Systems, Inc. zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "7901",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "BC",
+                "subba-name": "Baltimore Gas & Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "4087",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "CE",
+                "subba-name": "Commonwealth Edison zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "11149",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "DAY",
+                "subba-name": "Dayton Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2089",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "DEOK",
+                "subba-name": "Duke Energy Ohio/Kentucky zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3159",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "DOM",
+                "subba-name": "Dominion Virginia Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "16127",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "DPL",
+                "subba-name": "Delmarva Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2585",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "DUQ",
+                "subba-name": "Duquesne Lighting Company zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1541",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "EKPC",
+                "subba-name": "East Kentucky Power Cooperative zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1872",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "JC",
+                "subba-name": "Jersey Central Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2628",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "ME",
+                "subba-name": "Metropolitan Edison zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1888",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "PE",
+                "subba-name": "PECO Energy zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "4840",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "PEP",
+                "subba-name": "Potomac Electric Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3649",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "PL",
+                "subba-name": "Pennsylvania Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5341",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "PN",
+                "subba-name": "Pennsylvania Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2057",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "PS",
+                "subba-name": "Public Service Electric & Gas zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "4921",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "RECO",
+                "subba-name": "Rockland Electric (East) zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "155",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "24",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "80",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "48",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "52",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "59",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1262",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T05",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "355",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "PGAE",
+                "subba-name": "Pacific Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "11938",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "SCE",
+                "subba-name": "Southern California Edison",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "11665",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "SDGE",
+                "subba-name": "San Diego Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "2602",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "VEA",
+                "subba-name": "Valley Electric Association",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "89",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "0001",
+                "subba-name": "Zone 1",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "11598",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "0004",
+                "subba-name": "Zone 4",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "5585",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "0006",
+                "subba-name": "Zone 6",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "11142",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "0027",
+                "subba-name": "Zones 2 and 7",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "17550",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "0035",
+                "subba-name": "Zones 3 and 5",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "11476",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "8910",
+                "subba-name": "Zones 8, 9, and 10",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "18826",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "ZONA",
+                "subba-name": "West",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1758",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "ZONB",
+                "subba-name": "Genesee",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1158",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "ZONC",
+                "subba-name": "Central",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1926",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "ZOND",
+                "subba-name": "North",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "674",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "ZONE",
+                "subba-name": "Mohawk Valley",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1065",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "ZONF",
+                "subba-name": "Capital",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1523",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "ZONG",
+                "subba-name": "Hudson Valley",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1247",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "ZONH",
+                "subba-name": "Millwood",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "356",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "ZONI",
+                "subba-name": "Dunwoodie",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "728",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "ZONJ",
+                "subba-name": "New York City",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "5623",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "ZONK",
+                "subba-name": "Long Island",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "2371",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "AE",
+                "subba-name": "Atlantic Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1272",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "AEP",
+                "subba-name": "American Electric Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "16802",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "AP",
+                "subba-name": "Allegheny Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "6629",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "ATSI",
+                "subba-name": "American Transmission Systems, Inc. zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "8145",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "BC",
+                "subba-name": "Baltimore Gas & Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "4251",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "CE",
+                "subba-name": "Commonwealth Edison zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "11477",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "DAY",
+                "subba-name": "Dayton Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2147",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "DEOK",
+                "subba-name": "Duke Energy Ohio/Kentucky zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3272",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "DOM",
+                "subba-name": "Dominion Virginia Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "16545",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "DPL",
+                "subba-name": "Delmarva Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2652",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "DUQ",
+                "subba-name": "Duquesne Lighting Company zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1589",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "EKPC",
+                "subba-name": "East Kentucky Power Cooperative zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1897",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "JC",
+                "subba-name": "Jersey Central Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2749",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "ME",
+                "subba-name": "Metropolitan Edison zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1952",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "PE",
+                "subba-name": "PECO Energy zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5033",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "PEP",
+                "subba-name": "Potomac Electric Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3784",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "PL",
+                "subba-name": "Pennsylvania Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5504",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "PN",
+                "subba-name": "Pennsylvania Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2110",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "PS",
+                "subba-name": "Public Service Electric & Gas zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5155",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "RECO",
+                "subba-name": "Rockland Electric (East) zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "164",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "26",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "80",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "48",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "44",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "60",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1297",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T04",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "350",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "PGAE",
+                "subba-name": "Pacific Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "11568",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "SCE",
+                "subba-name": "Southern California Edison",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "11377",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "SDGE",
+                "subba-name": "San Diego Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "2540",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "VEA",
+                "subba-name": "Valley Electric Association",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "89",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "0001",
+                "subba-name": "Zone 1",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "11947",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "0004",
+                "subba-name": "Zone 4",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "5654",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "0006",
+                "subba-name": "Zone 6",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "11324",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "0027",
+                "subba-name": "Zones 2 and 7",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "18215",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "0035",
+                "subba-name": "Zones 3 and 5",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "11622",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "8910",
+                "subba-name": "Zones 8, 9, and 10",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "19488",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "ZONA",
+                "subba-name": "West",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1825",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "ZONB",
+                "subba-name": "Genesee",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1201",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "ZONC",
+                "subba-name": "Central",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "2040",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "ZOND",
+                "subba-name": "North",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "694",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "ZONE",
+                "subba-name": "Mohawk Valley",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1100",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "ZONF",
+                "subba-name": "Capital",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1575",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "ZONG",
+                "subba-name": "Hudson Valley",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1309",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "ZONH",
+                "subba-name": "Millwood",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "378",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "ZONI",
+                "subba-name": "Dunwoodie",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "766",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "ZONJ",
+                "subba-name": "New York City",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "5842",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "ZONK",
+                "subba-name": "Long Island",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "2503",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "AE",
+                "subba-name": "Atlantic Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1325",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "AEP",
+                "subba-name": "American Electric Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "17121",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "AP",
+                "subba-name": "Allegheny Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "6772",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "ATSI",
+                "subba-name": "American Transmission Systems, Inc. zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "8409",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "BC",
+                "subba-name": "Baltimore Gas & Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "4385",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "CE",
+                "subba-name": "Commonwealth Edison zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "11649",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "DAY",
+                "subba-name": "Dayton Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2208",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "DEOK",
+                "subba-name": "Duke Energy Ohio/Kentucky zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3366",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "DOM",
+                "subba-name": "Dominion Virginia Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "16876",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "DPL",
+                "subba-name": "Delmarva Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2716",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "DUQ",
+                "subba-name": "Duquesne Lighting Company zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1631",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "EKPC",
+                "subba-name": "East Kentucky Power Cooperative zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2019",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "JC",
+                "subba-name": "Jersey Central Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2906",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "ME",
+                "subba-name": "Metropolitan Edison zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2000",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "PE",
+                "subba-name": "PECO Energy zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5195",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "PEP",
+                "subba-name": "Potomac Electric Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3908",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "PL",
+                "subba-name": "Pennsylvania Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5663",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "PN",
+                "subba-name": "Pennsylvania Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2210",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "PS",
+                "subba-name": "Public Service Electric & Gas zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5346",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "RECO",
+                "subba-name": "Rockland Electric (East) zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "173",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "25",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "79",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "47",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "44",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "60",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1297",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T03",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "345",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "PGAE",
+                "subba-name": "Pacific Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "10423",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "SCE",
+                "subba-name": "Southern California Edison",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "10788",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "SDGE",
+                "subba-name": "San Diego Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "2325",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "VEA",
+                "subba-name": "Valley Electric Association",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "80",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "0001",
+                "subba-name": "Zone 1",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "12225",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "0004",
+                "subba-name": "Zone 4",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "5697",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "0006",
+                "subba-name": "Zone 6",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "11446",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "0027",
+                "subba-name": "Zones 2 and 7",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "18678",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "0035",
+                "subba-name": "Zones 3 and 5",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "11703",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "8910",
+                "subba-name": "Zones 8, 9, and 10",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "19627",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "ZONA",
+                "subba-name": "West",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1873",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "ZONB",
+                "subba-name": "Genesee",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1251",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "ZONC",
+                "subba-name": "Central",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "2110",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "ZOND",
+                "subba-name": "North",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "721",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "ZONE",
+                "subba-name": "Mohawk Valley",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1143",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "ZONF",
+                "subba-name": "Capital",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1675",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "ZONG",
+                "subba-name": "Hudson Valley",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1361",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "ZONH",
+                "subba-name": "Millwood",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "393",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "ZONI",
+                "subba-name": "Dunwoodie",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "795",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "ZONJ",
+                "subba-name": "New York City",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "5986",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "ZONK",
+                "subba-name": "Long Island",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "2600",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "AE",
+                "subba-name": "Atlantic Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1366",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "AEP",
+                "subba-name": "American Electric Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "17519",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "AP",
+                "subba-name": "Allegheny Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "6944",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "ATSI",
+                "subba-name": "American Transmission Systems, Inc. zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "8462",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "BC",
+                "subba-name": "Baltimore Gas & Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "4467",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "CE",
+                "subba-name": "Commonwealth Edison zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "11742",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "DAY",
+                "subba-name": "Dayton Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2267",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "DEOK",
+                "subba-name": "Duke Energy Ohio/Kentucky zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3462",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "DOM",
+                "subba-name": "Dominion Virginia Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "17082",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "DPL",
+                "subba-name": "Delmarva Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2746",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "DUQ",
+                "subba-name": "Duquesne Lighting Company zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1674",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "EKPC",
+                "subba-name": "East Kentucky Power Cooperative zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2054",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "JC",
+                "subba-name": "Jersey Central Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3011",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "ME",
+                "subba-name": "Metropolitan Edison zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2058",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "PE",
+                "subba-name": "PECO Energy zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5298",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "PEP",
+                "subba-name": "Potomac Electric Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3956",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "PL",
+                "subba-name": "Pennsylvania Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5804",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "PN",
+                "subba-name": "Pennsylvania Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2288",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "PS",
+                "subba-name": "Public Service Electric & Gas zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5459",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "RECO",
+                "subba-name": "Rockland Electric (East) zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "178",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "24",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "80",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "47",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "44",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "60",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1298",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T02",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "341",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "PGAE",
+                "subba-name": "Pacific Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "9403",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "SCE",
+                "subba-name": "Southern California Edison",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "10786",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "SDGE",
+                "subba-name": "San Diego Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "1964",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "VEA",
+                "subba-name": "Valley Electric Association",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "114",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "0001",
+                "subba-name": "Zone 1",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "12338",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "0004",
+                "subba-name": "Zone 4",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "5692",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "0006",
+                "subba-name": "Zone 6",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "11420",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "0027",
+                "subba-name": "Zones 2 and 7",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "18984",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "0035",
+                "subba-name": "Zones 3 and 5",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "11662",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "8910",
+                "subba-name": "Zones 8, 9, and 10",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "19623",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "ZONA",
+                "subba-name": "West",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1872",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "ZONB",
+                "subba-name": "Genesee",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1277",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "ZONC",
+                "subba-name": "Central",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "2138",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "ZOND",
+                "subba-name": "North",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "746",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "ZONE",
+                "subba-name": "Mohawk Valley",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1157",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "ZONF",
+                "subba-name": "Capital",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1720",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "ZONG",
+                "subba-name": "Hudson Valley",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1394",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "ZONH",
+                "subba-name": "Millwood",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "401",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "ZONI",
+                "subba-name": "Dunwoodie",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "808",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "ZONJ",
+                "subba-name": "New York City",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "6079",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "ZONK",
+                "subba-name": "Long Island",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "2656",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "AE",
+                "subba-name": "Atlantic Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1379",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "AEP",
+                "subba-name": "American Electric Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "17576",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "AP",
+                "subba-name": "Allegheny Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "6866",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "ATSI",
+                "subba-name": "American Transmission Systems, Inc. zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "8729",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "BC",
+                "subba-name": "Baltimore Gas & Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "4449",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "CE",
+                "subba-name": "Commonwealth Edison zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "11794",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "DAY",
+                "subba-name": "Dayton Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2275",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "DEOK",
+                "subba-name": "Duke Energy Ohio/Kentucky zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3465",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "DOM",
+                "subba-name": "Dominion Virginia Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "16972",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "DPL",
+                "subba-name": "Delmarva Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2722",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "DUQ",
+                "subba-name": "Duquesne Lighting Company zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1670",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "EKPC",
+                "subba-name": "East Kentucky Power Cooperative zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2037",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "JC",
+                "subba-name": "Jersey Central Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3053",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "ME",
+                "subba-name": "Metropolitan Edison zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2082",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "PE",
+                "subba-name": "PECO Energy zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5322",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "PEP",
+                "subba-name": "Potomac Electric Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3945",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "PL",
+                "subba-name": "Pennsylvania Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5842",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "PN",
+                "subba-name": "Pennsylvania Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2300",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "PS",
+                "subba-name": "Public Service Electric & Gas zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5503",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "RECO",
+                "subba-name": "Rockland Electric (East) zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "180",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "23",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "80",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "46",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "49",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "58",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1243",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T01",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "315",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "PGAE",
+                "subba-name": "Pacific Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "8794",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "SCE",
+                "subba-name": "Southern California Edison",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "11523",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "SDGE",
+                "subba-name": "San Diego Gas and Electric",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "1874",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "VEA",
+                "subba-name": "Valley Electric Association",
+                "parent": "CISO",
+                "parent-name": "California Independent System Operator",
+                "value": "128",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "0001",
+                "subba-name": "Zone 1",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "12048",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "0004",
+                "subba-name": "Zone 4",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "5567",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "0006",
+                "subba-name": "Zone 6",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "11191",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "0027",
+                "subba-name": "Zones 2 and 7",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "19013",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "0035",
+                "subba-name": "Zones 3 and 5",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "11411",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "8910",
+                "subba-name": "Zones 8, 9, and 10",
+                "parent": "MISO",
+                "parent-name": "Midcontinent Independent System Operator, Inc.",
+                "value": "19268",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "ZONA",
+                "subba-name": "West",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1910",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "ZONB",
+                "subba-name": "Genesee",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1322",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "ZONC",
+                "subba-name": "Central",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "2128",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "ZOND",
+                "subba-name": "North",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "754",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "ZONE",
+                "subba-name": "Mohawk Valley",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1188",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "ZONF",
+                "subba-name": "Capital",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1767",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "ZONG",
+                "subba-name": "Hudson Valley",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "1411",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "ZONH",
+                "subba-name": "Millwood",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "411",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "ZONI",
+                "subba-name": "Dunwoodie",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "813",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "ZONJ",
+                "subba-name": "New York City",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "6120",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "ZONK",
+                "subba-name": "Long Island",
+                "parent": "NYIS",
+                "parent-name": "New York Independent System Operator",
+                "value": "2690",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "AE",
+                "subba-name": "Atlantic Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1361",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "AEP",
+                "subba-name": "American Electric Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "17376",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "AP",
+                "subba-name": "Allegheny Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "6799",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "ATSI",
+                "subba-name": "American Transmission Systems, Inc. zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "8751",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "BC",
+                "subba-name": "Baltimore Gas & Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "4378",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "CE",
+                "subba-name": "Commonwealth Edison zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "11654",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "DAY",
+                "subba-name": "Dayton Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2268",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "DEOK",
+                "subba-name": "Duke Energy Ohio/Kentucky zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3415",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "DOM",
+                "subba-name": "Dominion Virginia Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "16562",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "DPL",
+                "subba-name": "Delmarva Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2650",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "DUQ",
+                "subba-name": "Duquesne Lighting Company zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "1669",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "EKPC",
+                "subba-name": "East Kentucky Power Cooperative zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2006",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "JC",
+                "subba-name": "Jersey Central Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3073",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "ME",
+                "subba-name": "Metropolitan Edison zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2076",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "PE",
+                "subba-name": "PECO Energy zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5217",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "PEP",
+                "subba-name": "Potomac Electric Power zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "3860",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "PL",
+                "subba-name": "Pennsylvania Power & Light zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5798",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "PN",
+                "subba-name": "Pennsylvania Electric zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "2291",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "PS",
+                "subba-name": "Public Service Electric & Gas zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "5481",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "RECO",
+                "subba-name": "Rockland Electric (East) zone",
+                "parent": "PJM",
+                "parent-name": "PJM Interconnection, LLC",
+                "value": "180",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "ACMA",
+                "subba-name": "City of Acoma Pueblo",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "3",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "CYGA",
+                "subba-name": "City of Gallup",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "20",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "Frep",
+                "subba-name": "Freeport",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "77",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "Jica",
+                "subba-name": "Jicarilla Apache Nation",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "2",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "KAFB",
+                "subba-name": "Kirtland Air Force Base",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "46",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "KCEC",
+                "subba-name": "Kit Carson Electric Cooperative",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "36",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "LAC",
+                "subba-name": "Los Alamos County",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "56",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "PNM",
+                "subba-name": "PNM System Firm Load",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "1136",
+                "value-units": "megawatthours"
+            },
+            {
+                "period": "2025-01-27T00",
+                "subba": "TSGT",
+                "subba-name": "Tri-State Generation and Transmission",
+                "parent": "PNM",
+                "parent-name": "Public Service Company of New Mexico",
+                "value": "290",
+                "value-units": "megawatthours"
+            }
+        ],
+        "description": "Hourly demand by balancing authority subregion.  \n    Source: Form EIA-930\n    Product: Hourly Electric Grid Monitor"
+    },
+    "request": {
+        "command": "/v2/electricity/rto/region-sub-ba-data/data/",
+        "params": {
+            "frequency": "hourly",
+            "data": [
+                "value"
+            ],
+            "sort": [
+                {
+                    "column": "period",
+                    "direction": "desc"
+                }
+            ],
+            "offset": "0",
+            "length": "5000",
+            "start": "2025-01-27",
+            "end": "2025-01-28",
+            "api_key": "dqRq8VpXSoyUrCbrPhuYFxGl6Rul9kmVcRshZ98c"
+        }
+    },
+    "apiVersion": "2.1.8",
+    "ExcelAddInVersion": "2.1.0"
+}
