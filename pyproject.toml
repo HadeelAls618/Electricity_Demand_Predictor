@@ -26,6 +26,8 @@ streamlit = "^1.41.1"
 geopandas = "^1.0.1"
 deck = "^3.0.0"
 requests-cache = "^1.2.1"
+jupyter = "^1.1.1"
+nbconvert = "^7.16.6"
 
 
 [tool.poetry.group.dev.dependencies]
