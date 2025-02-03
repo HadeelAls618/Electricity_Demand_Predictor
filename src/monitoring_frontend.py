@@ -23,22 +23,6 @@ progress_bar = st.sidebar.progress(0)
 N_STEPS = 3
 
 
-# # @st.cache_data
-# def _load_predictions_and_actuals_from_store(
-#     from_date: datetime,
-#     to_date: datetime
-#     ) -> pd.DataFrame:
-#     """Wrapped version of src.monitoring.load_predictions_and_actual_values_from_store, so
-#     we can add Streamlit caching
-
-#     Args:
-#         from_date (datetime): min datetime for which we want predictions and
-#         actual values
-
-#         to_date (datetime): max datetime for which we want predictions and
-#         actual values
-#     """
-#     return load_predictions_and_actual_values_from_store(from_date, to_date)
 
 with st.spinner(text="Fetching model predictions and actual values from the store"):
     
@@ -50,6 +34,7 @@ with st.spinner(text="Fetching model predictions and actual values from the stor
     progress_bar.progress(1/N_STEPS)
     print(monitoring_df)
     print("Unique hours in dataset:", monitoring_df['actuals_date'].dt.hour.unique())
+    
 
 
 

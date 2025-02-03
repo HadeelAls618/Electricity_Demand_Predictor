@@ -21,8 +21,10 @@ def load_predictions_and_actual_values_from_store(from_date: datetime, to_date: 
     A prefix is applied to columns from the actuals feature group to avoid ambiguity.
     """
     # Ensure datetime objects are timezone-aware (UTC)
-    from_date = from_date.replace(tzinfo=timezone.utc)
-    to_date = to_date.replace(tzinfo=timezone.utc)
+    from_date = from_date.astimezone(timezone.utc)
+    to_date = to_date.astimezone(timezone.utc)
+
+
 
     # Retrieve the two feature groups
     predictions_fg = get_or_create_feature_group(FEATURE_GROUP_PREDICTIONS_METADATA)
@@ -59,6 +61,10 @@ def load_predictions_and_actual_values_from_store(from_date: datetime, to_date: 
         name=config.MONITORING_FV_NAME,
         version=config.MONITORING_FV_VERSION
     )
+
+
+ 
+    
 
     # Fetch data from the feature view with an extended time window
     monitoring_df = monitoring_fv.get_batch_data(
