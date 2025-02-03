@@ -51,6 +51,6 @@ jobs:
       env: 
         HOPSWORKS_PROJECT_NAME: ${{ secrets.HOPSWORKS_PROJECT_NAME }}
         HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
-      run: poetry run jupyter nbconvert --to notebook --execute notebooks/5-feature_pipline.ipynb
+      run: poetry run jupyter nbconvert --to notebook --execute notbooks/5-feature_pipline.ipynb
       #run: make features
   
