@@ -58,5 +58,6 @@ jobs:
         COMET_ML_API_KEY: ${{ secrets.COMET_ML_API_KEY }}
         COMET_ML_WORKSPACE: ${{ secrets.COMET_ML_WORKSPACE }}
         COMET_ML_PROJECT_NAME: ${{ secrets.COMET_ML_PROJECT_NAME }}
-      run: make inference
+      #run: make inference
+      run: poetry run jupyter nbconvert --to notebook --execute nootbooks/7-inference_pipline.ipynb
   
