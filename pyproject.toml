@@ -25,6 +25,7 @@ comet-ml = "^3.48.1"
 streamlit = "^1.41.1"
 geopandas = "^1.0.1"
 deck = "^3.0.0"
+requests-cache = "^1.2.1"
 
 
 [tool.poetry.group.dev.dependencies]
