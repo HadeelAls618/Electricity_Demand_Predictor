@@ -12,7 +12,7 @@ env:
 
 jobs:
 
-  feature_pipeline:
+  monitoring:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
