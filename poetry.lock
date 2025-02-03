@@ -3686,6 +3686,24 @@ files = [
 requests = ">=2.0.1,<3.0.0"
 
 [[package]]
+name = "retry-requests"
+version = "2.0.0"
+description = "Make requests's sessions auto-retry on failure."
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "retry-requests-2.0.0.tar.gz", hash = "sha256:3d02135e5aafedf09240414182fc7389c5d2b4de0252daba0054c9d6a27e7639"},
+    {file = "retry_requests-2.0.0-py3-none-any.whl", hash = "sha256:38e8e3f55051e7b7915c1768884269097865a5da2ea87d5dcafd6ba9498c363f"},
+]
+
+[package.dependencies]
+requests = "*"
+urllib3 = ">=1.26"
+
+[package.extras]
+test = ["pytest"]
+
+[[package]]
 name = "retrying"
 version = "1.3.4"
 description = "Retrying"
@@ -4935,4 +4953,4 @@ scikit-learn = ["scikit-learn"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.13"
-content-hash = "d8b1e24a4493e78b7637fe0c617982c20f6bbac5b1224e543bc42140f220417a"
+content-hash = "770b2945206a51ae330cbfcd598c5add2676431ee3c00f1a07e0955d96891c42"

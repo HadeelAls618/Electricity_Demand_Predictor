@@ -28,6 +28,7 @@ deck = "^3.0.0"
 requests-cache = "^1.2.1"
 jupyter = "^1.1.1"
 nbconvert = "^7.16.6"
+retry-requests = "^2.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
