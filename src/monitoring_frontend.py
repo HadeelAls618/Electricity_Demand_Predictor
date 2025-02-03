@@ -24,6 +24,7 @@ N_STEPS = 3
 
 
 
+
 with st.spinner(text="Fetching model predictions and actual values from the store"):
     
     monitoring_df = load_predictions_and_actual_values_from_store(
