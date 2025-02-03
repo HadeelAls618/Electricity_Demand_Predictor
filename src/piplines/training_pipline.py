@@ -15,10 +15,10 @@ from src.component.feature_group_config import FEATURE_VIEW_METADATA, N_HYPERPAR
 import  src.component.feature_group_config as config
 from src.component.data_info import transform_ts_data_into_features_and_target,train_test_split
 #from src.discord import send_message_to_channel
-from src.feature_store_api import get_or_create_feature_view
+from src.component.feature_store_api import get_or_create_feature_view
 from src.logger import get_logger
 from src.component.model_info import get_pipeline
-from src.model_registry_api import push_model_to_registry
+from src.component.model_registry_api import push_model_to_registry
 from src.paths import DATA_CACHE_DIR, PARENT_DIR
 
 logger = get_logger()
@@ -50,7 +50,7 @@ def fetch_features_and_targets_from_store(
     # as Unix milliseconds
     from_ts = int(from_date.timestamp() * 1000)
     to_ts = int(to_date.timestamp() * 1000)
-    ts_data = ts_data[ts_data['date'].between(from_ts, to_ts)]
+    ts_data = ts_data[ts_data['seconds'].between(from_ts, to_ts)]
 
     # sort by pickup_location_id and pickup_hour in ascending order
     ts_data.sort_values(by=['sub_region_code', 'date'], inplace=True)
@@ -149,7 +149,7 @@ def load_features_and_target(
         from_date = pd.to_datetime(date.today() - timedelta(days=52 * 7))
         to_date = pd.to_datetime(date.today())
         features_and_target = fetch_features_and_targets_from_store(
-            from_date, to_date, step_size=23
+            from_date, to_date, step_size=24
         )
 
         # save features_and_target to local file

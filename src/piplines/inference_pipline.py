@@ -6,11 +6,11 @@ import pandas as pd
 from hsfs.client.exceptions import RestAPIError
 from retry import retry
 
-from src.config import FEATURE_GROUP_PREDICTIONS_METADATA, MODEL_NAME
-from src.feature_store_api import get_or_create_feature_group
-from src.inference import get_model_predictions, load_batch_of_features_from_store
+from src.component.feature_group_config import FEATURE_GROUP_PREDICTIONS_METADATA, MODEL_NAME
+from src.component.feature_store_api import get_or_create_feature_group
+from src.component.inference import get_model_predictions, load_batch_of_features_from_store
 from src.logger import get_logger
-from src.model_registry_api import get_latest_model_from_registry
+from src.component.model_registry_api import get_latest_model_from_registry
 
 logger = get_logger()
 

@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 import src.component.feature_group_config as config
-from src.feature_store_api import get_feature_store, get_or_create_feature_view
+from src.component.feature_store_api import get_feature_store, get_or_create_feature_view
 from src.component.feature_group_config import FEATURE_VIEW_METADATA
 
 def get_hopsworks_project() -> hopsworks.project.Project:
@@ -16,20 +16,24 @@ def get_hopsworks_project() -> hopsworks.project.Project:
         api_key_value=config.HOPSWORKS_API_KEY
     )
 
+import pandas as pd
+
 def get_model_predictions(model, features: pd.DataFrame) -> pd.DataFrame:
-    """"""
-    # past_rides_columns = [c for c in features.columns if c.startswith('rides_')]
+    """Generate model predictions based on input features."""
+    
+    assert features.shape[0] > 0, "Make sure your feature pipeline is up and running"
+    
     predictions = model.predict(features)
 
     results = pd.DataFrame()
     results['sub_region_code'] = features['sub_region_code'].values
     results['predicted_demand'] = predictions.round(0)
     
-    return results
+    return results  # Ensure the function returns the DataFrame
 
 
-import pandas as pd
-import numpy as np
+
+
 from datetime import timedelta
 
 def load_batch_of_features_from_store(current_date: pd.Timestamp) -> pd.DataFrame:
@@ -67,7 +71,8 @@ def load_batch_of_features_from_store(current_date: pd.Timestamp) -> pd.DataFram
     ts_to = int(fetch_data_to.timestamp() * 1000)
 
     # Filter data for the required time period
-    ts_data = ts_data[ts_data.seconds.between(ts_from, ts_to)]
+    #ts_data = ts_data[ts_data.seconds.between(ts_from, ts_to)]
+    ts_data = ts_data.groupby('sub_region_code').tail(672)
     
     print('Dates after filtering:')
     print(ts_data['date'].min(), ts_data['date'].max())
@@ -80,6 +85,7 @@ def load_batch_of_features_from_store(current_date: pd.Timestamp) -> pd.DataFram
     
     # Identify valid sub-regions that meet the required record count
     valid_sub_regions = location_counts[location_counts == config.N_FEATURES].index
+    print(valid_sub_regions)
 
     # Filter the dataset to retain only valid sub-regions
     ts_data = ts_data[ts_data['sub_region_code'].isin(valid_sub_regions)]
@@ -124,7 +130,7 @@ def load_model_from_registry():
     )  
     
     model_dir = model.download()
-    model = joblib.load(Path(model_dir)  / 'model.pkl')
+    model = joblib.load(Path(model_dir)  / 'LGB_model.pkl')
        
     return model
 
@@ -151,7 +157,7 @@ def load_predictions_from_store(
             - `date`
     """
     from src.component.feature_group_config import FEATURE_VIEW_PREDICTIONS_METADATA
-    from src.feature_store_api import get_or_create_feature_view
+    from src.component.feature_store_api import get_or_create_feature_view
 
     # get pointer to the feature view
     predictions_fv = get_or_create_feature_view(FEATURE_VIEW_PREDICTIONS_METADATA)

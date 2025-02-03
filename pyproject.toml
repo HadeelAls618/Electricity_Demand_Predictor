@@ -22,6 +22,9 @@ optuna = "^4.2.0"
 python-dotenv = "^1.0.1"
 hopsworks = {extras = ["python"], version = "^4.1.5"}
 comet-ml = "^3.48.1"
+streamlit = "^1.41.1"
+geopandas = "^1.0.1"
+deck = "^3.0.0"
 
 
 [tool.poetry.group.dev.dependencies]

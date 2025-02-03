@@ -7,7 +7,7 @@ from src.component import feature_group_config as config
 from src.component.data_info import (
     fetch_demand_values_from_data_warehouse
 )
-from src.feature_store_api import get_or_create_feature_group
+from src.component.feature_store_api import get_or_create_feature_group
 from src.logger import get_logger
 
 logger = get_logger()

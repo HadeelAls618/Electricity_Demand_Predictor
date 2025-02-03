@@ -1,0 +1,57 @@
+name: training-pipeline
+
+on:
+    schedule:
+    - cron: '0 0 * * 0'
+  
+    workflow_dispatch:
+
+env:
+  PYTHON_VERSION: 3.9
+  POETRY_VERSION: 1.7.0
+  POETRY_URL: https://install.python-poetry.org
+
+jobs:
+
+    training_pipeline:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Checkout
+          uses: actions/checkout@v3
+    
+        # Poetry cache depends on OS, Python version and Poetry version.
+        - name: Cache Poetry cache
+          uses: actions/cache@v3
+    
+          with:
+            path: ~/.cache/pypoetry
+            key: poetry-cache-${{ runner.os }}-${{ env.PYTHON_VERSION }}-${{ env.POETRY_VERSION }}
+        
+        # virtualenv cache should depends on OS, Python version and `poetry.lock` (and optionally workflow files).
+        - name: Cache Packages
+          uses: actions/cache@v3
+          with:
+            path: ~/.local
+            key: poetry-${{ runner.os }}-${{ env.PYTHON_VERSION }}-${{ hashFiles('**/poetry.lock') }}-${{ hashFiles('.github/workflows/*.yml') }}
+        
+        - name: Set up Python ${{ env.PYTHON_VERSION }}
+          uses: actions/setup-python@v3
+          with:
+            python-version: ${{ env.PYTHON_VERSION }}
+        
+        - name: Install Poetry
+          run: |
+            curl -sSL ${{ env.POETRY_URL }} | python - --version ${{ env.POETRY_VERSION }}
+            echo "$HOME/.local/bin" >> $GITHUB_PATH
+        
+        - name: Install Dependencies
+          run: poetry install
+            
+        - name: Run training script
+          env:
+            HOPSWORKS_PROJECT_NAME: ${{ secrets.HOPSWORKS_PROJECT_NAME }} 
+            HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
+            COMET_ML_API_KEY: ${{ secrets.COMET_ML_API_KEY }}
+            COMET_ML_WORKSPACE: ${{ secrets.COMET_ML_WORKSPACE }}
+            COMET_ML_PROJECT_NAME: ${{ secrets.COMET_ML_PROJECT_NAME }}
+          run: make training
