@@ -49,4 +49,4 @@ jobs:
         env: 
           HOPSWORKS_PROJECT_NAME: ${{ secrets.HOPSWORKS_PROJECT_NAME }}
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
-        run: poetry run python src/monitoring_frontend.py
+        run: streamlit run src/monitoring_frontend.py
