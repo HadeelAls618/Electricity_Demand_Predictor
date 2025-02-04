@@ -1,4 +1,4 @@
-# Batch Prediction Service for Hourly Electricity Demand in the US  
+#  Hourly Electricity Demand batch Prediction Service
 
 ## Project Overview  
 This project delivers an **end-to-end, production-grade machine learning service** for **batch electricity demand forecasting**. We designed, implemented, and deployed a complete ML pipeline that automates data collection, preprocessing, model training, inference, and monitoring.  
