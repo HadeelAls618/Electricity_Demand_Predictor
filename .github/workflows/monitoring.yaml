@@ -11,22 +11,20 @@ env:
   POETRY_URL: https://install.python-poetry.org
 
 jobs:
-
   monitoring:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # Poetry cache depends on OS, Python version and Poetry version.
+      # Cache Poetry dependencies to speed up installs
       - name: Cache Poetry cache
         uses: actions/cache@v3
         with:
           path: ~/.cache/pypoetry
           key: poetry-cache-${{ runner.os }}-${{ env.PYTHON_VERSION }}-${{ env.POETRY_VERSION }}
 
-      # Virtualenv cache should depend on OS, Python version and `poetry.lock` (and optionally workflow files).
-      - name: Cache Packages
+      - name: Cache Virtual Environment
         uses: actions/cache@v3
         with:
           path: ~/.local
@@ -41,12 +39,17 @@ jobs:
         run: |
           curl -sSL ${{ env.POETRY_URL }} | python - --version ${{ env.POETRY_VERSION }}
           echo "$HOME/.local/bin" >> $GITHUB_PATH
+          export PATH="$HOME/.local/bin:$PATH"
+          poetry --version  # Verify Poetry is installed
 
       - name: Install Dependencies
-        run: poetry install
+        run: poetry install --no-interaction --no-root
+
+      - name: Verify Streamlit Installation
+        run: poetry run streamlit --version
 
       - name: Run Monitoring Script
         env: 
           HOPSWORKS_PROJECT_NAME: ${{ secrets.HOPSWORKS_PROJECT_NAME }}
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
-        run: streamlit run src/monitoring_frontend.py
+        run: poetry run streamlit run src/monitoring_frontend.py
