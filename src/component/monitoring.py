@@ -23,6 +23,8 @@ def load_predictions_and_actual_values_from_store(from_date: datetime, to_date: 
     # Ensure datetime objects are timezone-aware (UTC)
     from_date = from_date.astimezone(timezone.utc)
     to_date = to_date.astimezone(timezone.utc)
+    print(from_date)
+    print(to_date)
 
 
 
@@ -37,8 +39,8 @@ def load_predictions_and_actual_values_from_store(from_date: datetime, to_date: 
             on=['date', 'sub_region_code'],
             prefix="actuals_"  # columns from actuals_fg will have the prefix 'actual_'
         ) \
-        # .filter(predictions_fg.date >= from_date) \
-        # .filter(predictions_fg.date <= to_date)
+        #  .filter(predictions_fg.date >= from_date) \
+        #  .filter(predictions_fg.date <= to_date)
 
     # Create the feature view if it does not exist yet
     feature_store = get_feature_store()

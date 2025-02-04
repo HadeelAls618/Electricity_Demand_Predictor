@@ -52,4 +52,4 @@ jobs:
         env: 
           HOPSWORKS_PROJECT_NAME: ${{ secrets.HOPSWORKS_PROJECT_NAME }}
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
-        run: poetry run streamlit run src/monitoring_frontend.py
+        run: poetry run jupyter nbconvert --to notebook --execute nootbooks/8-moonitoring.ipynb
