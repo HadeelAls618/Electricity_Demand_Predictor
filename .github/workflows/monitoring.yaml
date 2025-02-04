@@ -1,8 +1,13 @@
 name: monitoring
 
 on:
+  # workflow_run:
+  #   workflows: ["feature-pipeline"]
+  #   types:
+  #     - completed
   schedule:
     - cron: '30 * * * *'
+
   workflow_dispatch:
 
 env:
@@ -11,45 +16,50 @@ env:
   POETRY_URL: https://install.python-poetry.org
 
 jobs:
+
   monitoring:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+    - name: Checkout
+      uses: actions/checkout@v3
 
-      # Cache Poetry dependencies to speed up installs
-      - name: Cache Poetry cache
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/pypoetry
-          key: poetry-cache-${{ runner.os }}-${{ env.PYTHON_VERSION }}-${{ env.POETRY_VERSION }}
+    # Poetry cache depends on OS, Python version and Poetry version.
+    - name: Cache Poetry cache
+      uses: actions/cache@v3
 
-      - name: Cache Virtual Environment
-        uses: actions/cache@v3
-        with:
-          path: ~/.local
-          key: poetry-${{ runner.os }}-${{ env.PYTHON_VERSION }}-${{ hashFiles('**/poetry.lock') }}-${{ hashFiles('.github/workflows/*.yml') }}
+      with:
+        path: ~/.cache/pypoetry
+        key: poetry-cache-${{ runner.os }}-${{ env.PYTHON_VERSION }}-${{ env.POETRY_VERSION }}
+    
+    # virtualenv cache should depends on OS, Python version and `poetry.lock` (and optionally workflow files).
+    - name: Cache Packages
+      uses: actions/cache@v3
+      with:
+        path: ~/.local
+        key: poetry-${{ runner.os }}-${{ env.PYTHON_VERSION }}-${{ hashFiles('**/poetry.lock') }}-${{ hashFiles('.github/workflows/*.yml') }}
+    
+    - name: Set up Python ${{ env.PYTHON_VERSION }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+    
+    - name: Install Poetry
+      run: |
+        curl -sSL ${{ env.POETRY_URL }} | python - --version ${{ env.POETRY_VERSION }}
+        echo "$HOME/.local/bin" >> $GITHUB_PATH
+    
+    - name: Install Dependencies
+      run: poetry install
+        
+    - name: update monitoring
+      env: 
+        HOPSWORKS_PROJECT_NAME: ${{ secrets.HOPSWORKS_PROJECT_NAME }}
+        HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
+        COMET_ML_API_KEY: ${{ secrets.COMET_ML_API_KEY }}
+        COMET_ML_WORKSPACE: ${{ secrets.COMET_ML_WORKSPACE }}
+        COMET_ML_PROJECT_NAME: ${{ secrets.COMET_ML_PROJECT_NAME }}
+      #run: make inference
+      run: poetry run jupyter nbconvert --to notebook --execute nootbooks/8-moonitoring.ipynb
 
-      - name: Set up Python ${{ env.PYTHON_VERSION }}
-        uses: actions/setup-python@v3
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-
-      - name: Install Poetry
-        run: |
-          curl -sSL ${{ env.POETRY_URL }} | python - --version ${{ env.POETRY_VERSION }}
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
-          export PATH="$HOME/.local/bin:$PATH"
-          poetry --version  # Verify Poetry is installed
-
-      - name: Install Dependencies
-        run: poetry install --no-interaction --no-root
-
-      - name: Verify Streamlit Installation
-        run: poetry run streamlit --version
-
-      - name: Run Monitoring Script
-        env: 
-          HOPSWORKS_PROJECT_NAME: ${{ secrets.HOPSWORKS_PROJECT_NAME }}
-          HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
-        run: poetry run jupyter nbconvert --to notebook --execute nootbooks/8-moonitoring.ipynb
+  
+        
