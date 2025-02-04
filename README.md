@@ -23,9 +23,9 @@ We developed a **three-stage ML pipeline** using modern MLOps practices, includi
 
 ### **1️⃣ Feature Pipeline**  
 📌 **Fetch & process data from multiple sources:**  
-- **Electricity demand data** → U.S. Energy Information Administration (EIA) API.  
-- **Weather data** → Open-Meteo API (historical temperature, humidity, etc.).  
-- **Holiday data** → Pandas U.S. Federal Holiday Calendar.  
+- **Electricity demand data** → U.S. Energy Information Administration (EIA) API.  https://www.eia.gov/opendata/
+- **Weather data** → Open-Meteo API (historical temperature).  https://open-meteo.com/
+- **Holiday data** → Pandas U.S. Federal Holiday Calendar.  pandas library pandas.tseries.holiday
 
 📌 **Data processing steps:**  
 - Merge datasets based on timestamps.  
@@ -51,16 +51,16 @@ We developed a **three-stage ML pipeline** using modern MLOps practices, includi
 📌 Deploys the service as a **serverless function** in `inference_pipeline.py`.  
 
 ## **Model Monitoring & Dashboard**  
-📌 Built a **Streamlit dashboard** for real-time model monitoring.  
+📌 Built a **Streamlit dashboard** for real-time model monitoring.  https://electricitydemandmonitor-2pe99wef2a5mdvtjnjqt4d.streamlit.app/
 📌 Displays:  
 - **Actual vs. Predicted Demand** (as time-series plots).  
-- **Model Performance Metrics** (MAPE & MAE).  
+- **Model Performance Metric** (MAE).  
 
 📌 Helps track **model drift** and maintain prediction accuracy over time.  
 
 ## **Final Deployment (User Interface)**  
 📌 Developed a **Streamlit web application** to allow users to:  
-- View **real-time demand predictions**.  
+- View **batch demand predictions**.  
 - Monitor **forecast accuracy**.  
 - Analyze **past trends and seasonal effects**.  
 
@@ -70,7 +70,7 @@ We developed a **three-stage ML pipeline** using modern MLOps practices, includi
 ✅ **Automated batch predictions:** Runs hourly via GitHub Actions.  
 ✅ **Scalable & explainable model:** LightGBM with feature engineering.  
 ✅ **Real-time monitoring:** Interactive dashboard for performance tracking.  
-✅ **Deployed application:** Accessible via a **Streamlit web app**.  
+✅ **Deployed application:** Accessible via a **Streamlit web app**.  https://electricitydemandpredictor-3gaww4pzqsw6orh3vnkc4f.streamlit.app/
 
 
 
