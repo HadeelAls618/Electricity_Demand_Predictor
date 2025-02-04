@@ -73,7 +73,7 @@ def load_batch_of_features_from_store(current_date: pd.Timestamp) -> pd.DataFram
     # Filter data for the required time period
     #ts_data = ts_data[ts_data.seconds.between(ts_from, ts_to)]
     ts_data = ts_data.groupby('sub_region_code').tail(672)
-    
+    print(ts_data.groupby('sub_region_code').tail(10))
     print('Dates after filtering:')
     print(ts_data['date'].min(), ts_data['date'].max())
 
