@@ -57,7 +57,7 @@ jobs:
         COMET_ML_PROJECT_NAME: ${{ secrets.COMET_ML_PROJECT_NAME }}
       run: |
         echo "Executing notebook..."
-        poetry run jupyter nbconvert --to notebook --execute nootbooks/8-monitoring.ipynb --debug --ExecutePreprocessor.timeout=300
+        poetry run jupyter nbconvert --to notebook --execute nootbooks/8-monitoring.ipynb
 
 
   
