@@ -7,28 +7,6 @@ The service helps **Public Service Company (PNM)** optimize electricity supply b
 ![GIF](vid.gif)
 
 
-## Buisness problem
-PNM is facing significant challenges, including increased operational costs, wastage of resources, and declining customer satisfaction due to unmet expectations and delays. These issues are hampering profitability and customer retention.
-
-### **Challenges:**  
-- **Overproduction** → Wasted energy and higher costs.  
-- **Shortages** → Customer dissatisfaction and service disruptions.  
-- **Inefficient resource allocation** → Poor financial and operational performance.  
-
-## data Problem
-PNM aims to enhance its operational efficiency by forecasting electricity demand on an hourly basis. This will help align production, inventory, and resource allocation with real-time customer needs, reducing costs and improving service reliability. 
-
-## Objectives (SMART Framework)
-Reduce operational costs by implementing a demand forecasting model, as it offers high impact with moderate effort.
-
-### **Defining Ways to Achieve the Objective**
-
-1. **Specific**: Develop an electricity demand forecasting model that predicts hourly demand.
-2. **Measurable**: Reduce forecast error measured by Mean Absolute Error (MAE).
-3. **Achievable**: Utilize historical demand data, weather data, and calendar events to enhance forecasting accuracy.
-4. **Relevant**: Helps in optimizing energy production and minimizing waste.
-5. **Time-bound**: Achieve a stable and accurate model within a defined project timeline.
-
 ## Data Sources
 
 To ensure accurate predictions, we use multiple data sources:
