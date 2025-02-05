@@ -114,7 +114,7 @@ We developed **two interactive Streamlit applications** for batch demand forecas
   - Historical performance records
   - Comparison of predicted vs. actual demand
 - This allows continuous monitoring and optimization of the model.
-- you can acess the dashbored [here]( https://electricitydemandmonitor-2pe99wef2a5mdvtjnjqt4d.streamlit.app/) 
+- you can acess the dashbored [here](https://electricitydemandmonitor-2pe99wef2a5mdvtjnjqt4d.streamlit.app/) 
 
 
 ## summery
