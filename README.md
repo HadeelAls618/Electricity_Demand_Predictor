@@ -3,6 +3,10 @@
 This project presents an end-to-end, production-ready electricity demand forecasting system designed to optimize energy supply and reduce operational costs for Public Service Company (PNM). Leveraging Mlops techniques and historical demand/weather data, this system accurately predicts hourly electricity demand for various locations in NYC. The solution is fully automated, integrating data collection, feature engineering, model training, inference, and real-time monitoring into a seamless ML pipeline.
 The service helps **Public Service Company (PNM)** optimize electricity supply by predicting hourly energy demand, reducing costs, and improving operational efficiency.
 
+#
+![GIF](vid.gif)
+
+
 ## Buisness problem
 PNM is facing significant challenges, including increased operational costs, wastage of resources, and declining customer satisfaction due to unmet expectations and delays. These issues are hampering profitability and customer retention.
 
