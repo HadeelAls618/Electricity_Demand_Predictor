@@ -37,13 +37,7 @@ This pipeline fetches and preprocesses the required data, transforms it into a t
 1. Fetch historical electricity demand data from the **EIA API**.  
 2. Fetch historical weather data (temperature) from **OpenWeatherMap API**.
 3. Merge data sources based on timestamps.
-4. Transform features:
-   - **Prediction Target**: Hourly electricity demand for NY.
-   - **Features**:
-     - Hourly temperature for NY
-     - Day and month as integer features
-     - Bank holiday status (binary: True/False)
-     - Lag-based features for time-series analysis
+4. transform data into time series format
 5. Store transformed data in the Hopsworks Feature Store.
 
 ### **2. Training Pipeline**
@@ -52,22 +46,25 @@ This pipeline fetches data from the feature store, processes it into feature-tar
 
 #### **Steps:**
 
-1. Load preprocessed features and targets from the feature store.
-2. Train a **LightGBM model** with hyperparameter tuning using **Optuna** with 5-fold cross-validation.
-3. Implement **feature engineering**:
+1. Load preprocessed time series data from the feature store.
+2.  Transform data into features and target:
+   - **Prediction Target**: Hourly electricity demand for NY.
+   - **Features**:
+     - Hourly temperature for NY
+     - Day and month as integer features
+     - Bank holiday status (binary: True/False)
+     - Lag-based features for time-series analysis
+3. Train a **LightGBM model** with hyperparameter tuning using **Optuna** with 5-fold cross-validation.
+4. Implement **feature engineering**:
    - Adding US Federal Holidays using `pandas.tseries.holiday`.
    - Incorporating time-series features (lags, rolling statistics).
-4. Evaluate the model using **Mean Absolute Error (MAE)**.
-5. Store the trained model in the **Hopsworks Model Registry**.
+5. Evaluate the model using **Mean Absolute Error (MAE)**.
+6. Store the trained model in the **Hopsworks Model Registry**.
 
-#### **Performance**
-
-- The best model configuration was selected based on MAE.
-- The estimated MAE on the test set is **approximately 25 GWh**, aligning with EIA forecasts.
 
 ### **3. Inference Pipeline**
 
-The inference pipeline is responsible for generating hourly electricity demand predictions using the trained model.
+The inference pipeline is responsible for generating hourly electricity demand predictions using the trained model from model registory and the features from feature store.
 
 #### **Steps:**
 
