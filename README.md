@@ -1,7 +1,8 @@
 # Hourly Electricity Demand Batch Prediction Service
 ## Project Overview  
-This project presents an end-to-end, production-ready electricity demand forecasting system designed to optimize energy supply and reduce operational costs for Public Service Company (PNM). Leveraging Mlops techniques and historical demand/weather data, this system accurately predicts hourly electricity demand for various locations in NYC. The solution is fully automated, integrating data collection, feature engineering, model training, inference, and continous monitoring into a seamless ML pipeline.
-The service helps **Public Service Company (PNM)** optimize electricity supply by predicting hourly energy demand, reducing costs, and improving operational efficiency, acess the app [here](https://electricitydemandpredictor-3gaww4pzqsw6orh3vnkc4f.streamlit.app/) .
+This project presents an end-to-end, production-ready electricity demand forecasting system designed to optimize energy supply and reduce operational costs for Public Service Company (PNM). Leveraging Mlops techniques and historical demand/weather data, this system accurately predicts hourly electricity demand for various locations in NYC. The solution is fully automated, integrating data collection, feature engineering, model training, inference, and continuous monitoring into a seamless ML pipeline.
+The service helps **Public Service Company (PNM)** optimize electricity supply by predicting hourly energy demand, reducing costs, and improving operational efficiency, 
+access the app [here](https://electricitydemandpredictor-3gaww4pzqsw6orh3vnkc4f.streamlit.app/) .
 
 #
 ![GIF](vid.gif)
@@ -86,7 +87,7 @@ We developed **two interactive Streamlit applications** for batch demand forecas
 - A **Streamlit application** visualizes forecasted electricity demand for different locations in NYC. 
 - The application features an interactive **map** where the size of circles represents demand at specific locations.
 - Users can explore electricity demand variations across locations in real-time,
-- you can acess the app [here](https://electricitydemandpredictor-3gaww4pzqsw6orh3vnkc4f.streamlit.app/) 
+- you can access the app [here](https://electricitydemandpredictor-3gaww4pzqsw6orh3vnkc4f.streamlit.app/) 
 
 ### **Monitoring Dashboard**
 - A separate **Streamlit dashboard** monitors model performance on an hourly basis.
@@ -95,7 +96,7 @@ We developed **two interactive Streamlit applications** for batch demand forecas
   - Historical performance records
   - Comparison of predicted vs. actual demand
 - This allows continuous monitoring and optimization of the model.
-- you can acess the dashbored [here](https://electricitydemandmonitor-2pe99wef2a5mdvtjnjqt4d.streamlit.app/) 
+- you can access the dashbored [here](https://electricitydemandmonitor-2pe99wef2a5mdvtjnjqt4d.streamlit.app/) 
 
 
 ## summery
