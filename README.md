@@ -15,7 +15,7 @@ To ensure accurate predictions, we use multiple data sources:
 - **Historical electricity Demand Data**: Fetched from **[EIA API](https://www.eia.gov/opendata/)**. 
 - **Weather Data**: Historical weather information retrieved from **[Openmeteo Weather API](https://open-meteo.com/)**.
 - **Calendar Events**: Public holidays extracted using `pandas.tseries.holiday`.
-- 
+  
 ## Project methodalgy
 We built a machine learning-based demand forecasting service to help PNM:
 
