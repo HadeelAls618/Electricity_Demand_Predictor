@@ -22,8 +22,6 @@ We built a machine learning-based demand forecasting service to help PNM:
 **Reduce overproduction** by aligning energy generation with forecasted demand.
 - **Prevent shortages** by accurately predicting peak-hour energy needs.
 - **Optimize resource** allocation through data-driven energy distribution.
-- **Enhance operational** efficiency with automated forecasting.
-
 
 ## **End-to-End Machine Learning Pipeline**  
 Our solution features a three-stage ML pipeline, leveraging modern MLOps principles such as feature stores, model registries, and automated inference to ensure scalability and reliability.
@@ -99,11 +97,11 @@ We developed **two interactive Streamlit applications** for batch demand forecas
 ## summery
 This project successfully implements a batch prediction system for hourly electricity demand forecasting. By leveraging machine learning and data science, PNM can optimize energy production and improve efficiency while minimizing costs, by achiving the following tasks.
 
-✅ **Automated ML Pipeline** → Fully automated process from data collection to inference.\
-✅ **Feature Store & Model Registry** → Efficient feature storage & model versioning.\
-✅ **batch Demand Forecasting** → Predicts hourly electricity demand across locations.\
-✅ **Interactive app** → Provides easy-to-interpret forecasts & model insights.\
-✅ **Production-Ready** → Scheduled batch inference, model monitoring and retrainning & scalable architecture.
+ **Automated ML Pipeline** → Fully automated process from data collection to inference.\ ✅
+ **Feature Store & Model Registry** → Efficient feature storage & model versioning.\ ✅
+ **batch Demand Forecasting** → Predicts hourly electricity demand across locations.\ ✅
+ **Interactive app** → Provides easy-to-interpret forecasts & model insights.\ ✅
+ **Production-Ready** → Scheduled batch inference, model monitoring and retrainning & scalable architecture. ✅
 
 
   ## Contact
