@@ -1,7 +1,7 @@
 # Hourly Electricity Demand Batch Prediction Service
 ## Project Overview  
-This project presents an end-to-end, production-ready electricity demand forecasting system designed to optimize energy supply and reduce operational costs for Public Service Company (PNM). Leveraging Mlops techniques and historical demand/weather data, this system accurately predicts hourly electricity demand for various locations in NYC. The solution is fully automated, integrating data collection, feature engineering, model training, inference, and continuous monitoring into a seamless ML pipeline.
-The service helps **Public Service Company (PNM)** optimize electricity supply by predicting hourly energy demand, reducing costs, and improving operational efficiency, 
+This project presents an end-to-end, production-ready electricity demand forecasting system designed to optimize energy supply and reduce operational costs for **Public Service Company (PNM)**. Leveraging Mlops techniques and historical demand/weather data, this system accurately predicts hourly electricity demand for various locations in NYC. The solution is fully automated, integrating data collection, feature engineering, model training, inference, and continuous monitoring into a seamless ML pipeline.
+The service helps the company optimize electricity supply by predicting hourly energy demand, reducing costs, and improving operational efficiency, 
 access the app [here](https://electricitydemandpredictor-3gaww4pzqsw6orh3vnkc4f.streamlit.app/) .
 
 #
