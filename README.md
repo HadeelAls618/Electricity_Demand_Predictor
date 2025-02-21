@@ -26,15 +26,8 @@ To ensure accurate predictions, we use multiple data sources:
 - **Weather Data**: Historical weather information retrieved from **[Openmeteo Weather API](https://open-meteo.com/)**.
 - **Calendar Events**: Public holidays extracted using `pandas.tseries.holiday`.
   
-## Project methodalgy
-We built a machine learning-based demand forecasting service to help PNM:
-
-**Reduce overproduction** by aligning energy generation with forecasted demand.
-- **Prevent shortages** by accurately predicting peak-hour energy needs.
-- **Optimize resource** allocation through data-driven energy distribution.
-
-## **End-to-End Machine Learning Pipeline**  
-Our solution features a three-stage ML pipeline, leveraging modern MLOps principles such as feature stores, model registries, and automated inference to ensure scalability and reliability.
+## Project methodalgy 
+Our methodalgy features three-stage ML pipelines, leveraging modern MLOps principles such as feature stores, model registries, and automated inference to ensure scalability and reliability.
 
 ### **1. Feature Pipeline**
 
@@ -72,7 +65,7 @@ This pipeline fetches data from the feature store, processes it into feature-tar
 
 ### **3. Inference Pipeline**
 
-The inference pipeline is responsible for generating hourly electricity demand predictions using the trained model from model registory and the features from feature store.
+This pipeline is responsible for generating hourly electricity demand predictions using the trained model from model registory and the features from feature store.
 
 #### **Steps:**
 
@@ -105,7 +98,7 @@ We developed **two interactive Streamlit applications** for batch demand forecas
 
 
 ## summery
-This project successfully implements a batch prediction system for hourly electricity demand forecasting. By leveraging machine learning and data science, PNM can optimize energy production and improve efficiency while minimizing costs, by achiving the following tasks.
+This project successfully implements prediction system for hourly electricity demand forecasting. By leveraging machine learning, the puplic energy company can optimize energy production and improve efficiency while minimizing costs, by achiving the following tasks.
 
 ✅ **Automated ML Pipeline** → Fully automated process from data collection to inference.
 
