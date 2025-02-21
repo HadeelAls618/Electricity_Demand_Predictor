@@ -1,15 +1,25 @@
 # Hourly Electricity Demand Batch Prediction Service
+
 ## Project Overview  
-This project presents an end-to-end, production-ready electricity demand forecasting system designed to optimize energy supply and reduce operational costs for **Public Service Company (PNM)**. Leveraging Mlops techniques and historical demand/weather data, this system accurately predicts hourly electricity demand for various locations in NYC. The solution is fully automated, integrating data collection, feature engineering, model training, inference, and continuous monitoring into a seamless ML pipeline.
-The service helps the company optimize electricity supply by predicting hourly energy demand, reducing costs, and improving operational efficiency, 
+This project presents an end-to-end, production-ready electricity demand forecasting system designed to optimize energy supply and reduce operational costs for **Public energy company)**. Leveraging Mlops techniques and historical demand/weather data, this system accurately predicts hourly electricity demand for various locations in NYC. The solution is fully automated, integrating data collection, feature engineering, model training, inference, and continuous monitoring into a seamless ML pipeline.
 access the app [here](https://electricitydemandpredictor-3gaww4pzqsw6orh3vnkc4f.streamlit.app/) .
 
 #
 ![GIF](vid.gif)
 
 
-## Data Sources
+## Business Problem  
+ Public Energy Company encounters several operational challenges in managing electricity supply across various NYC locations:  
+- **Overproduction**: Generating excess electricity, leading to increased costs and energy waste.  
+- **Shortages**: Underestimating peak demand, causing power outages and lowering customer satisfaction.  
+- **Resource Misallocation**: Inefficient distribution of electricity resources, impacting operational efficiency and increasing the carbon footprint.  
 
+These issues lead to higher operational expenses, reduced profitability, and lower customer satisfaction.  
+
+## ML Problem  
+Accurately predict electricity demand for the next hour to align energy generation with forecasted demand. This ensures optimal resource allocation, enhances operational efficiency, and improves customer satisfaction.  
+
+## Data Sources
 To ensure accurate predictions, we use multiple data sources:
 
 - **Historical electricity Demand Data**: Fetched from **[EIA API](https://www.eia.gov/opendata/)**. 
