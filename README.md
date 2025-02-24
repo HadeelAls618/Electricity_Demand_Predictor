@@ -100,15 +100,15 @@ We developed **two interactive Streamlit applications** for batch demand forecas
 ## summery
 This project successfully implements prediction system for hourly electricity demand forecasting. By leveraging machine learning, the puplic energy company can optimize energy production and improve efficiency while minimizing costs, by achiving the following tasks.
 
-✅ **Automated ML Pipeline** → Fully automated process from data collection to inference.
+ **Automated ML Pipeline** → Fully automated process from data collection to inference.
 
-✅ **Feature Store & Model Registry** → Efficient feature storage & model versioning.
+ **Feature Store & Model Registry** → Efficient feature storage & model versioning.
 
-✅ **batch Demand Forecasting** → Predicts hourly electricity demand across locations.
+ **batch Demand Forecasting** → Predicts hourly electricity demand across locations.
 
-✅ **Interactive app** → Provides easy-to-interpret forecasts & model insights.
+ **Interactive app** → Provides easy-to-interpret forecasts & model insights.
 
-✅ **Production-Ready** → Scheduled batch inference, model monitoring and retrainning & scalable architecture. 
+ **Production-Ready** → Scheduled batch inference, model monitoring and retrainning & scalable architecture. 
 
 
   ## Contact
