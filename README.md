@@ -52,9 +52,7 @@ This pipeline fetches data from the feature store, processes it into feature-tar
    - **Prediction Target**: Hourly electricity demand for NY.
    - **Features**:
      - Hourly temperature for NY
-     - Day and month as integer features
-     - Bank holiday status (binary: True/False)
-     - Lag-based features for time-series analysis
+     - Lag-based features 
 3. Train a **LightGBM model** with hyperparameter tuning using **Optuna** with 5-fold cross-validation.
 4. Implement **feature engineering**:
    - Adding US Federal Holidays using `pandas.tseries.holiday`.
