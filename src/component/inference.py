@@ -60,7 +60,7 @@ def load_batch_of_features_from_store(current_date: pd.Timestamp) -> pd.DataFram
     # Fetch data
     ts_data = feature_view.get_batch_data(
         start_time=fetch_data_from - timedelta(days=1),
-        end_time=fetch_data_to + timedelta(days=1),read_options={"use_spark": True}
+        end_time=fetch_data_to + timedelta(days=1)
     )
 
     print('Dates before filtering:')
@@ -166,7 +166,7 @@ def load_predictions_from_store(
     print(f'Fetching predictions for `date` between {from_date}  and {to_date}')
     predictions = predictions_fv.get_batch_data(
         start_time=from_date - timedelta(days=1),
-        end_time=to_date + timedelta(days=1),read_options={"use_spark": True}
+        end_time=to_date + timedelta(days=1)
     )
     
     # make sure datetimes are UTC aware
