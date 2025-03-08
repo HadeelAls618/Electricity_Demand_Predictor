@@ -89,7 +89,7 @@ def get_or_create_feature_view(
     # from src.config import FEATURE_GROUP_METADATA
     feature_group = feature_store.get_feature_group(
         name=feature_view_metadata.feature_group.name,
-        version=feature_view_metadata.feature_group.version,
+        version=feature_view_metadata.feature_group.version
     )
 
     # create feature view if it doesn't exist
@@ -106,7 +106,7 @@ def get_or_create_feature_view(
     feature_store = get_feature_store()
     feature_view = feature_store.get_feature_view(
         name=feature_view_metadata.name,
-        version=feature_view_metadata.version,
+        version=feature_view_metadata.version
     )
 
     return feature_view
