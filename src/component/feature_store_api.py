@@ -74,7 +74,7 @@ def get_or_create_feature_group(
         description=feature_group_metadata.description,
         primary_key=feature_group_metadata.primary_key,
         event_time=feature_group_metadata.event_time,
-        online_enabled=feature_group_metadata.online_enabled
+        online_enabled=feature_group_metadata.online_enabled,
     )
 
 def get_or_create_feature_view(
@@ -106,7 +106,7 @@ def get_or_create_feature_view(
     feature_store = get_feature_store()
     feature_view = feature_store.get_feature_view(
         name=feature_view_metadata.name,
-        version=feature_view_metadata.version
+        version=feature_view_metadata.version,
     )
 
     return feature_view
