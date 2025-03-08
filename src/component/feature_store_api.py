@@ -74,7 +74,7 @@ def get_or_create_feature_group(
         description=feature_group_metadata.description,
         primary_key=feature_group_metadata.primary_key,
         event_time=feature_group_metadata.event_time,
-        online_enabled=feature_group_metadata.online_enabled
+        online_enabled=False
     )
 
 def get_or_create_feature_view(
@@ -90,6 +90,7 @@ def get_or_create_feature_view(
     feature_group = feature_store.get_feature_group(
         name=feature_view_metadata.feature_group.name,
         version=feature_view_metadata.feature_group.version
+        online_enabled=False
     )
 
     # create feature view if it doesn't exist
