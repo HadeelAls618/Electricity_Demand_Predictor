@@ -52,7 +52,7 @@ def get_feature_group(
     """
     return get_feature_store().get_feature_group(
         name=name,
-        version=version,
+        version=version
     )
 
 def get_or_create_feature_group(
@@ -74,7 +74,7 @@ def get_or_create_feature_group(
         description=feature_group_metadata.description,
         primary_key=feature_group_metadata.primary_key,
         event_time=feature_group_metadata.event_time,
-        online_enabled=False
+        online_enabled=feature_group_metadata.online_enabled
     )
 
 def get_or_create_feature_view(
@@ -89,8 +89,7 @@ def get_or_create_feature_view(
     # from src.config import FEATURE_GROUP_METADATA
     feature_group = feature_store.get_feature_group(
         name=feature_view_metadata.feature_group.name,
-        version=feature_view_metadata.feature_group.version
-        online_enabled=False
+        version=feature_view_metadata.feature_group.version,
     )
 
     # create feature view if it doesn't exist
@@ -107,7 +106,7 @@ def get_or_create_feature_view(
     feature_store = get_feature_store()
     feature_view = feature_store.get_feature_view(
         name=feature_view_metadata.name,
-        version=feature_view_metadata.version,
+        version=feature_view_metadata.version
     )
 
     return feature_view
