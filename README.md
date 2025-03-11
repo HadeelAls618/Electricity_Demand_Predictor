@@ -2,7 +2,6 @@
 
 ## Project Overview  
 This project presents an end-to-end, production-ready electricity demand forecasting system designed to optimize energy supply, reduce operational costs, and minimize CO₂ emissions for **Public energy company**. Utilizing MLOps best practices. The solution is fully automated, integrating data collection, feature engineering, model training, inference, and continuous monitoring into a seamless ML pipeline.
-access the app [here](https://electricitydemandpredictor-3gaww4pzqsw6orh3vnkc4f.streamlit.app/) .
 
 #
 ![GIF](vid.gif)
@@ -83,7 +82,6 @@ We developed **two interactive Streamlit applications** for batch demand forecas
 - A **Streamlit application** visualizes forecasted electricity demand for different locations in NYC. 
 - The application features an interactive **map** where the size of circles represents demand at specific locations.
 - Users can explore electricity demand variations across locations in real-time,
-- you can access the app [here](https://electricitydemandpredictor-3gaww4pzqsw6orh3vnkc4f.streamlit.app/) 
 
 ### **Monitoring Dashboard**
 - A separate **Streamlit dashboard** monitors model performance on an hourly basis.
