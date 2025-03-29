@@ -50,7 +50,7 @@ This pipeline fetches data from the feature store, processes it into feature-tar
 2.  Transform data into features and target:
    - **Prediction Target**: Hourly electricity demand for NY.
    - **Features**:
-     - Hourly temperature for NY
+     - Hourly temperature in NYC
      - Lag-based features 
 3. Train a **LightGBM model** with hyperparameter tuning using **Optuna** with 5-fold cross-validation.
 4. Implement **feature engineering**:
@@ -90,7 +90,6 @@ We developed **two interactive Streamlit applications** for batch demand forecas
   - Historical performance records
   - Comparison of predicted vs. actual demand
 - This allows continuous monitoring and optimization of the model.
-- you can access the dashbored [here](https://electricitydemandmonitor-2pe99wef2a5mdvtjnjqt4d.streamlit.app/) 
 
 
 ## summery
