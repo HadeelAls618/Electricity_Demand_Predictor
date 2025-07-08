@@ -96,7 +96,7 @@ We developed **two interactive Streamlit applications** for batch demand forecas
   * A real-time chart of **MAE trends**.
   * Historical performance records.
   * Comparison of predicted vs. actual demand.
-* This allows continuous monitoring and optimization of the model.
+This allows continuous monitoring and optimization of the model.
 
 ## Summary
 
