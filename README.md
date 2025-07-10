@@ -1,4 +1,4 @@
-# Hourly Electricity Demand Batch Prediction Service
+# Hourly Electricity Demand Prediction Service
 
 ## Project Overview
 
