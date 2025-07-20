@@ -9,7 +9,7 @@ This project presents a **production-ready, end-to-end electricity demand foreca
 
 ## Business Problem
 
-The Energy Company faces resource misallocation: inefficient distribution of energy resources leads to increased operational costs, higher carbon footprint, and reduced efficiency.
+ The energy company faces resource misallocation: inefficient distribution of energy resources leads to increased operational costs, a higher carbon footprint, and reduced efficiency.
 
 
 ## ML Problem
