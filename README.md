@@ -79,10 +79,7 @@ Tracks model performance in real time, featuring MAE trends, historical insights
 
 
 ### Summary
-
-This project delivers a production-ready machine learning system for forecasting hourly electricity demand. By leveraging automated pipelines and real-time monitoring, the solution enables the Public Energy Company to optimize energy generation, improve operational efficiency, and reduce costs.
-
-Key highlights include:
+This project covers the following key components:
 
 *  **Automated ML Pipeline**: Covers data ingestion, training, inference, and monitoring
 *  **Feature Store & Model Registry**: Enables scalable versioning and reproducibility
@@ -91,10 +88,10 @@ Key highlights include:
 *  **Production-Ready**: Scheduled inference, retraining hooks, and modular architecture
 
 
-## 📬 Contact
+## Contact
 
 Want to collaborate or ask questions about this project?
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/hadeel-als-0a23702a6)
-- 📧 [alsaadonhadeel@gmail.com](mailto:alsaadonhadeel@gmail.com)
+-  [LinkedIn](https://www.linkedin.com/in/hadeel-als-0a23702a6)
+-  [alsaadonhadeel@gmail.com](mailto:alsaadonhadeel@gmail.com)
 
