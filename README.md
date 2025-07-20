@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project presents a **production-ready, end-to-end electricity demand forecasting system** designed to optimize energy supply, reduce operational costs, and minimize CO₂ emissions for a **public energy provider**. Leveraging MLOps best practices, the solution is fully automated — integrating data collection, feature engineering, model training, inference, and continuous monitoring into a seamless ML pipeline.
+This project presents a **production-ready, end-to-end electricity demand forecasting system** designed to optimize energy supply, reduce operational costs, and minimize CO₂ emissions for a **public energy provider**. Leveraging MLOps best practices, the solution is fully automated, integrating data collection, feature engineering, model training, inference, and continuous monitoring into a seamless ML pipeline.
 
 ![GIF](vid.gif)
 
