@@ -1,117 +1,100 @@
-# Hourly Electricity Demand Prediction Service
+#  Hourly Electricity Demand Forecasting System ⚡
 
 ## Project Overview
 
-This project presents an end-to-end, production-ready electricity demand forecasting system designed to optimize energy supply, reduce operational costs, and minimize CO₂ emissions for **Public Energy Company**. Utilizing MLOps best practices, the solution is fully automated, integrating data collection, feature engineering, model training, inference, and continuous monitoring into a seamless ML pipeline.
+This project presents a **production-ready, end-to-end electricity demand forecasting system** designed to optimize energy supply, reduce operational costs, and minimize CO₂ emissions for a **public energy provider**. Leveraging MLOps best practices, the solution is fully automated — integrating data collection, feature engineering, model training, inference, and continuous monitoring into a seamless ML pipeline.
 
 ![GIF](vid.gif)
 
+
 ## Business Problem
 
-Public Energy Company encounters several operational challenges in managing electricity supply across various NYC locations:
+The Energy Company faces resource misallocation: inefficient distribution of energy resources leads to increased operational costs, higher carbon footprint, and reduced efficiency.
 
-* **Overproduction**: Generating excess electricity, leading to increased costs and energy waste.
-* **Shortages**: Underestimating peak demand, causing power outages and lowering customer satisfaction.
-* **Resource Misallocation**: Inefficient distribution of electricity resources, impacting operational efficiency and increasing the carbon footprint.
-
-These issues lead to higher operational expenses, reduced profitability, and lower customer satisfaction.
 
 ## ML Problem
 
-Accurately predict electricity demand for the next hour to align energy generation with forecasted demand. This ensures optimal resource allocation, enhances operational efficiency, and improves customer satisfaction.
+Build a model that predicts **next-hour electricity demand**, enabling the company to align generation with forecasted needs — ensuring optimal resource allocation, reducing costs, and improving reliability.
+
 
 ## Data Sources
 
-To ensure accurate predictions, we use multiple data sources:
+To support accurate demand forecasting, the project integrates data from multiple sources:
 
-* **Historical Electricity Demand Data**: Fetched from the **[EIA API](https://www.eia.gov/opendata/)**.
-* **Weather Data**: Historical weather information retrieved from the **[Open-Meteo Weather API](https://open-meteo.com/)**.
-* **Calendar Events**: Public holidays extracted using `pandas.tseries.holiday`.
+- **Historical Electricity Demand**: Retrieved from the [EIA API](https://www.eia.gov/opendata/)  
+- **Weather Data**: Pulled from the [Open-Meteo Weather API](https://open-meteo.com/)  
+- **Calendar Events**: Public holidays extracted using `pandas.tseries.holiday`
 
-## Project Methodology
 
-Our methodology features a three-stage ML pipeline, leveraging modern MLOps principles such as feature stores, model registries, and automated inference to ensure scalability and reliability.
+##  Project Methodology
 
-### **1. Feature Pipeline**
+The project is structured around a **three-stage ML pipeline**, aligned with MLOps principles like modular architecture, feature stores, model registries, and automated inference.
 
-This pipeline fetches and preprocesses the required data, transforms it into a time-series format, and stores it in the **Hopsworks Feature Store**.
 
-#### **Steps:**
+###  1. Feature Pipeline
 
-1. Fetch historical electricity demand data from the **EIA API**.
-2. Fetch historical weather data (temperature) from the **OpenWeatherMap API**.
-3. Merge data sources based on timestamps.
-4. Transform data into time-series format.
-5. Store transformed data in the Hopsworks Feature Store.
+Prepares time-series data and stores it in the **Hopsworks Feature Store**.
 
-### **2. Training Pipeline**
+**Steps:**
+- Fetch electricity demand data from the **EIA API**
+- Fetch temperature data from **Open-Meteo API**
+- Merge both datasets by timestamp
+- Transform into time-series format with lag features and holiday flags
+- Store engineered features in the **Hopsworks Feature Store**
 
-This pipeline fetches data from the feature store, processes it into a feature-target format, trains a machine learning model, and evaluates it before saving the trained model in the **Hopsworks Model Registry**.
 
-#### **Steps:**
+###  2. Training Pipeline
 
-1. Load preprocessed time-series data from the feature store.
-2. Transform data into features and target:
+Builds and registers the forecasting model.
 
-   * **Prediction Target**: Hourly electricity demand for NYC.
-   * **Features**:
+**Steps:**
+- Load features from the feature store
+- Define:
+  - **Target**: Next-hour electricity demand
+  - **Features**: Temperature, time-based lags, rolling stats, holiday indicators
+- Train a **LightGBM model** using **Optuna** for hyperparameter tuning and 5-fold cross-validation
+- Evaluate model using **Mean Absolute Error (MAE)**
+- Save the model to the **Hopsworks Model Registry**
 
-     * Hourly temperature in NYC.
-     * Lag-based features.
-3. Train a **LightGBM model** with hyperparameter tuning using **Optuna** and 5-fold cross-validation.
-4. Implement **feature engineering**:
 
-   * Add US federal holidays using `pandas.tseries.holiday`.
-   * Incorporate time-series features (lags, rolling statistics).
-5. Evaluate the model using **Mean Absolute Error (MAE)**.
-6. Store the trained model in the **Hopsworks Model Registry**.
+###  3. Inference Pipeline
 
-### **3. Inference Pipeline**
+Generates hourly forecasts using the trained model.
 
-This pipeline is responsible for generating hourly electricity demand predictions using the trained model from the model registry and the features from the feature store.
+**Steps:**
+- Fetch the latest features from the Feature Store
+- Load the model from the Model Registry
+- Predict next-hour electricity demand
+- Compute MAE against actuals
+- Run pipeline every hour via **GitHub Actions** using a serverless script (`inference_pipeline.py`)
 
-#### **Steps:**
 
-1. Fetch the latest feature set from the Hopsworks Feature Store.
-2. Load the trained model from the **Hopsworks Model Registry**.
-3. Generate hourly demand predictions.
-4. Compare predictions against actual demand data to compute **Mean Absolute Error (MAE)**.
-5. The pipeline runs as a **serverless function in `inference_pipeline.py`**, scheduled via **GitHub Actions** to execute every hour.
+### Deployment & Monitoring
 
-## Deployment & Monitoring
+**Batch Forecasting App (Streamlit)**
+An interactive app that visualizes predicted hourly electricity demand across NYC using a map-based interface with regional breakdowns.
 
-We developed **two interactive Streamlit applications** for batch demand forecasting and model performance monitoring.
+**Monitoring Dashboard (Streamlit)**
+Tracks model performance in real time, featuring MAE trends, historical insights, and comparisons between predicted and actual demand.
 
-### **Batch Demand Forecasting App**
 
-* A **Streamlit application** visualizes forecasted electricity demand for different locations in NYC.
-* The application features an interactive **map**, where the size of circles represents demand at specific locations.
-* Users can explore electricity demand variations across locations in real-time.
+### Summary
 
-### **Monitoring Dashboard**
+This project delivers a production-ready machine learning system for forecasting hourly electricity demand. By leveraging automated pipelines and real-time monitoring, the solution enables the Public Energy Company to optimize energy generation, improve operational efficiency, and reduce costs.
 
-* A separate **Streamlit dashboard** monitors model performance on an hourly basis.
-* The dashboard includes:
+Key highlights include:
 
-  * A real-time chart of **MAE trends**.
-  * Historical performance records.
-  * Comparison of predicted vs. actual demand.
-This allows continuous monitoring and optimization of the model.
+*  **Automated ML Pipeline**: Covers data ingestion, training, inference, and monitoring
+*  **Feature Store & Model Registry**: Enables scalable versioning and reproducibility
+*  **Batch Forecasting**: Generates accurate hourly predictions across NYC regions
+*  **Interactive Dashboard**: Provides stakeholders with clear, actionable insights
+*  **Production-Ready**: Scheduled inference, retraining hooks, and modular architecture
 
-## Summary
 
-This project successfully implements a prediction system for hourly electricity demand forecasting. By leveraging machine learning, the Public Energy Company can optimize energy production and improve efficiency while minimizing costs, achieving the following goals:
+## 📬 Contact
 
-* **Automated ML Pipeline** → Fully automated process from data collection to inference.
-* **Feature Store & Model Registry** → Efficient feature storage and model versioning.
-* **Batch Demand Forecasting** → Predicts hourly electricity demand across locations.
-* **Interactive App** → Provides easy-to-interpret forecasts and model insights.
-* **Production-Ready** → Scheduled batch inference, model monitoring and retraining, and scalable architecture.
+Want to collaborate or ask questions about this project?
 
-## Contact
-
-If you have any questions or would like to discuss this project further, feel free to reach out!
-
-* [LinkedIn](https://www.linkedin.com/in/hadeel-als-0a23702a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
-* [Email](mailto:alsadonhadeel@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/hadeel-als-0a23702a6)
+- 📧 [alsaadonhadeel@gmail.com](mailto:alsaadonhadeel@gmail.com)
 
