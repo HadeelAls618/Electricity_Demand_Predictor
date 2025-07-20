@@ -68,7 +68,8 @@ Generates hourly forecasts using the trained model.
 - Run pipeline every hour via **GitHub Actions** using a serverless script (`inference_pipeline.py`)
 
 
-### Deployment & Monitoring
+
+## Deployment & Monitoring
 
 **Batch Forecasting App (Streamlit)**
 An interactive app that visualizes predicted hourly electricity demand across NYC using a map-based interface with regional breakdowns.
@@ -77,7 +78,7 @@ An interactive app that visualizes predicted hourly electricity demand across NY
 Tracks model performance in real time, featuring MAE trends, historical insights, and comparisons between predicted and actual demand.
 
 
-### Summary
+## Summary
 This project covers the following key components:
 
 *  **Automated ML Pipeline**: Covers data ingestion, training, inference, and monitoring
