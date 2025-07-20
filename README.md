@@ -49,8 +49,8 @@ Builds and registers the forecasting model.
 
 **Steps:**
 - Load features from the feature store
-- Define:**Target**: Next-hour electricity demand
-- Define:**Features**: Temperature, time-based lags, rolling stats, holiday indicators
+- Define **target**: Next-hour electricity demand
+- Define **features**: Temperature, time-based lags, rolling stats, holiday indicators
 - Train a **LightGBM model** using **Optuna** for hyperparameter tuning and 5-fold cross-validation
 - Evaluate model using **Mean Absolute Error (MAE)**
 - Save the model to the **Hopsworks Model Registry**
