@@ -92,6 +92,6 @@ This project covers the following key components:
 
 Want to collaborate or ask questions about this project?
 
--  [LinkedIn](https://www.linkedin.com/in/hadeel-als-0a23702a6)
+-  [LinkedIn](https://www.linkedin.com/in/hadeel-als)
 -  [alsaadonhadeel@gmail.com](mailto:alsaadonhadeel@gmail.com)
 
